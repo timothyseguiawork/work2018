@@ -1,0 +1,140 @@
+html{
+  background-color:rgb(255,183,197);
+  font-family:sans-serif;
+  font-weight:600;
+  margin-left:-10px;
+
+}
+
+nav {
+  background-color:#501b00;
+  top:0;
+  position:fixed;
+  width:100%;
+  margin-left:-8px;
+  border:.2px solid #f5dad0;
+}
+
+nav .nav_favicon{
+  float:right;
+  padding-right:10px;
+  margin-top:4px;
+}
+
+nav .link {
+  float:left;
+  text-align:center;
+  background-color:#501b00;
+  color:#fff1d0;
+  padding:10px 30px;
+  text-decoration: none;
+  border:.2px solid #f5dad0;
+}
+
+nav .link:hover {
+  background-color:#6e3100;
+  border:.2px solid #ffcfa9;
+}
+
+.icons {
+  height: 16px;
+  width: 16px;
+}
+
+header{
+  color:#fff1d0;
+  text-align:center;
+  margin-top:70px;
+
+}
+
+.profile_image img{
+  border-radius:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  color:#fff1d0;
+  /*width: 93%;*/
+  /*height: 240px;*/
+  margin: 20px auto;
+  display: flex;
+}
+
+div {
+  flex:1;
+  margin-right:10px;
+  text-shadow: 2px 2px 1px #501b00;
+}
+div:last-child {
+  margin-right: 0;
+}
+div #parts{
+  background-color:#501b00;
+  text-shadow:none;
+  border:.2px solid #f5dad0;
+}
+
+div #parts p{
+  text-indent:18px;
+}
+
+section, div {
+  padding: 10px;
+}
+
+/*
+#descriptions{
+  background-color:black;
+  color:white;
+  width:40%;
+  float:left;
+  padding:30px;
+  margin-top:30px;
+  margin-right:-20px;
+  margin-left:70px;
+}
+
+.personal_information{
+  background-color:black;
+  color:white;
+  width:40%;
+  float:right;
+  padding:30px;
+  margin-top:30px;
+  margin-left:20px;
+  margin-right:70px;
+  margin-bottom:40px;
+}
+*/
+#footer{
+  position:fixed;
+  bottom:0;
+  background-color:#501b00;
+  width:100%;
+  margin-left:-8px;
+  border:.2px solid #f5dad0;
+}
+
+footer .footer_link{
+  float:left;
+  text-align:center;
+  background-color:#501b00;
+  color:#fff1d0;
+  padding:10px 30px;
+  text-decoration: none;
+  border:.2px solid #f5dad0;
+}
+
+footer .footer_link:hover{
+  background-color:#6e3100;
+  border:.2px solid #ffcfa9;
+}
+
+footer .footer_favicon{
+  float:right;
+  padding-right:10px;
+  margin-top:4px;
+}
